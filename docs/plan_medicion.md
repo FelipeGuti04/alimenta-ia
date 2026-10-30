@@ -17,9 +17,9 @@ Se separan cuatro ámbitos. Los **defectos del software** (fallas en el código)
 
 | Indicador | Valor obtenido | Meta | Interpretación | Acción correctiva |
 |---|---|---|---|---|
-| Aprobación de pruebas | 16/16 = 100 % | 100 % | Cumple | Ninguna |
+| Aprobación de pruebas | 21/21 = 100 % | 100 % | Cumple | Ninguna |
 | Cobertura de requisitos | 9/9 = 100 % (5 RF + RNF-01 y RNF-03 con prueba; RNF-02 y RNF-04 se verifican por auditoría) | ≥ 90 % | Cumple | Ninguna |
-| Cobertura de líneas (pytest-cov) | 52 % global; 100 % en `produccion.py`, `calidad.py` y `detector_ia.py` | Sin meta de clase | Los scripts `app.py`, `generar_datos.py` y `evaluar_ia.py` no tienen pruebas | Añadir pruebas a los scripts si el tiempo lo permite |
+| Cobertura de líneas (pytest-cov) | 97 % global (138/142 líneas); 100 % en `produccion.py`, `calidad.py` y `detector_ia.py` | Sin meta de clase | Las 4 líneas sin cubrir son los bloques `if __name__ == "__main__"` de los scripts. Antes de GH-05 la cobertura era 52 % | Ninguna |
 | PR revisados | Pendiente de confirmar (depende de los PR creados en GitHub) | 100 % | — | — |
 | Cumplimiento de tareas | Pendiente de confirmar (tablero del equipo) | ≥ 80 % | — | — |
 | Tasa de defectos (global) | 1358 / 45 376 = 2,99 %. Por producto: Arepa 2,25 %, Bocadillo 3,32 %, Galleta 3,36 % | Tendencia | Datos sintéticos; la diferencia entre productos no tiene significado industrial | Ninguna |
