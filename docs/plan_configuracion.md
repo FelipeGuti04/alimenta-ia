@@ -24,8 +24,9 @@ Línea base inicial: primer commit en `main` (`chore: estructura inicial ALIMENT
 
 | Ticket | Motivo | SCI afectados | Riesgo / impacto | Decisión | PR / evidencia |
 |---|---|---|---|---|---|
-| GH-01 | Registro de lotes | `src/produccion.py`, `tests/test_produccion.py` | Medio: afecta validación de datos | Aprobado si pytest pasa | Pendiente de confirmar (URL del PR) |
-| GH-02 | Indicadores | `src/calidad.py`, `tests/test_calidad.py` | Bajo | Aprobado si pytest pasa | Pendiente de confirmar (URL del PR) |
-| GH-03 | Detector IA | `src/detector_ia.py`, `src/evaluar_ia.py`, `data/` | Medio: uso responsable de alertas | Aprobado si pytest pasa | Pendiente de confirmar (URL del PR) |
-| GH-04 | Auditoría y notas de versión | `docs/` | Bajo | Aprobado tras revisión | Pendiente de confirmar (URL del PR) |
-| GH-05 | Pruebas de scripts (cierra D-02) | `src/generar_datos.py`, `tests/test_scripts.py` | Bajo: `generar()` recibe parámetro opcional `ruta` | Aprobado si pytest pasa | Pendiente de confirmar (URL del PR) |
+| GH-01 | Registro de lotes | `src/produccion.py`, `tests/test_produccion.py` | Medio: afecta validación de datos | Aprobado si pytest pasa | [PR #1](https://github.com/FelipeGuti04/alimenta-ia/pull/1) |
+| GH-02 | Indicadores | `src/calidad.py`, `tests/test_calidad.py` | Bajo | Aprobado si pytest pasa | [PR #2](https://github.com/FelipeGuti04/alimenta-ia/pull/2) |
+| GH-03 | Detector IA | `src/detector_ia.py`, `src/evaluar_ia.py`, `data/` | Medio: uso responsable de alertas | Aprobado si pytest pasa | [PR #3](https://github.com/FelipeGuti04/alimenta-ia/pull/3) |
+| GH-04 | Auditoría y notas de versión | `docs/` | Bajo | Aprobado tras revisión | [PR #4](https://github.com/FelipeGuti04/alimenta-ia/pull/4) |
+| GH-05 | Pruebas de scripts (cierra D-02) | `src/generar_datos.py`, `tests/test_scripts.py` | Bajo: `generar()` recibe parámetro opcional `ruta` | Aprobado si pytest pasa | [PR #5](https://github.com/FelipeGuti04/alimenta-ia/pull/5) |
+| GH-06 | Cierre documental: roles, URL de PR, indicadores y decisión de liberación | `docs/` | Bajo | Aprobado tras revisión | [PR #6](https://github.com/FelipeGuti04/alimenta-ia/pull/6) |
