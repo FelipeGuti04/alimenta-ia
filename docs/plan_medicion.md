@@ -20,8 +20,8 @@ Se separan cuatro ámbitos. Los **defectos del software** (fallas en el código)
 | Aprobación de pruebas | 21/21 = 100 % | 100 % | Cumple | Ninguna |
 | Cobertura de requisitos | 9/9 = 100 % (5 RF + RNF-01 y RNF-03 con prueba; RNF-02 y RNF-04 se verifican por auditoría) | ≥ 90 % | Cumple | Ninguna |
 | Cobertura de líneas (pytest-cov) | 97 % global (138/142 líneas); 100 % en `produccion.py`, `calidad.py` y `detector_ia.py` | Sin meta de clase | Las 4 líneas sin cubrir son los bloques `if __name__ == "__main__"` de los scripts. Antes de GH-05 la cobertura era 52 % | Ninguna |
-| PR revisados | Pendiente de confirmar (depende de los PR creados en GitHub) | 100 % | — | — |
-| Cumplimiento de tareas | Pendiente de confirmar (tablero del equipo) | ≥ 80 % | — | — |
+| PR revisados | 5/5 = 100 % revisados según el equipo; 2/5 con registro verificable en GitHub (#1 aprobación «Aprobado», #5 comentario «Revisado») | 100 % | Cumple en lo realizado y con una salvedad de registro: en #2, #3 y #4 el revisor (Camilo Ossa) revisó pero no dejó comentario y GitHub no le permitió añadirlo después de la integración (defecto de proceso D-03) | Activar una regla de protección de rama que exija 1 aprobación antes de integrar |
+| Cumplimiento de tareas | 5/5 = 100 % (tickets GH-01 a GH-05 terminados e integrados en `main`) | ≥ 80 % | Cumple; GH-06 (cierre documental) se cuenta al integrarse | Ninguna |
 | Tasa de defectos (global) | 1358 / 45 376 = 2,99 %. Por producto: Arepa 2,25 %, Bocadillo 3,32 %, Galleta 3,36 % | Tendencia | Datos sintéticos; la diferencia entre productos no tiene significado industrial | Ninguna |
 | IA — recall | Ver sección siguiente | Reportar | Ver limitaciones | Ver limitaciones |
 

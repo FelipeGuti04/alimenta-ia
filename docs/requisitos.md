@@ -6,10 +6,10 @@ Caso: NutriAlimentos S.A.S. (empresa simulada). Datos 100 % sintéticos.
 
 | Rol | Responsable |
 |---|---|
-| Product Owner | Pendiente de confirmar |
-| Desarrollador | Pendiente de confirmar |
-| Responsable QA | Pendiente de confirmar |
-| Responsable de configuración / medición | Pendiente de confirmar |
+| Product Owner | Camilo Ossa |
+| Desarrollador | Felipe Gutierrez |
+| Responsable QA | Camilo Ossa |
+| Responsable de configuración / medición | Felipe Gutierrez |
 
 ## Matriz de requisitos
 
