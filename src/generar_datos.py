@@ -9,7 +9,7 @@ SEMILLA = 42
 PRODUCTOS = ["Galleta", "Arepa", "Bocadillo"]
 
 
-def generar(n_normales: int = 40, n_atipicos: int = 6):
+def generar(n_normales: int = 40, n_atipicos: int = 6, ruta=None):
     rng = np.random.default_rng(SEMILLA)
     filas = []
     for i in range(n_normales):
@@ -23,7 +23,8 @@ def generar(n_normales: int = 40, n_atipicos: int = 6):
         filas.append((prod, int(round(prod * tasa / 100)), round(temp, 1), 1))
     orden = rng.permutation(len(filas))
     inicio = date(2026, 1, 5)
-    ruta = Path(__file__).resolve().parent.parent / "data" / "lotes_ejemplo.csv"
+    if ruta is None:
+        ruta = Path(__file__).resolve().parent.parent / "data" / "lotes_ejemplo.csv"
     with open(ruta, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["codigo", "fecha", "producto", "producidas", "defectuosas", "temperatura", "atipico"])

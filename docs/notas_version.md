@@ -8,11 +8,12 @@ Estado: **borrador**, se publica cuando los PR estén integrados (ver `docs/audi
 - Tasa de defectos, historial filtrable y tablero de texto (GH-02).
 - Detector de lotes atípicos con IsolationForest, dataset sintético de 46 lotes y evaluación con límites documentados (GH-03).
 - Documentos de calidad, medición, configuración y auditoría (GH-04).
+- Pruebas de los scripts de apoyo (GH-05).
 
 ## Calidad
 
-- 16 pruebas, 16 aprobadas.
-- Defectos críticos abiertos: 0. Defecto menor abierto: D-02 (scripts sin pruebas).
+- 21 pruebas, 21 aprobadas; cobertura de líneas 97 %.
+- Defectos abiertos: 0 (D-01 y D-02 cerrados).
 
 ## Limitaciones conocidas
 
